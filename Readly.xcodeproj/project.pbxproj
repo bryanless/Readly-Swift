@@ -11,6 +11,8 @@
 		93CA9E8529DBCEDD00A7441D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CA9E8429DBCEDD00A7441D /* ContentView.swift */; };
 		93CA9E8729DBCEDE00A7441D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93CA9E8629DBCEDE00A7441D /* Assets.xcassets */; };
 		93CA9E8A29DBCEDE00A7441D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93CA9E8929DBCEDE00A7441D /* Preview Assets.xcassets */; };
+		93CA9E9329DBD0A800A7441D /* ChallengeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CA9E9229DBD0A800A7441D /* ChallengeView.swift */; };
+		93CA9E9A29DBD58900A7441D /* SummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CA9E9929DBD58900A7441D /* SummaryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		93CA9E8429DBCEDD00A7441D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		93CA9E8629DBCEDE00A7441D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		93CA9E8929DBCEDE00A7441D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		93CA9E9229DBD0A800A7441D /* ChallengeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeView.swift; sourceTree = "<group>"; };
+		93CA9E9929DBD58900A7441D /* SummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +55,8 @@
 		93CA9E8129DBCEDD00A7441D /* Readly */ = {
 			isa = PBXGroup;
 			children = (
-				93CA9E8229DBCEDD00A7441D /* ReadlyApp.swift */,
-				93CA9E8429DBCEDD00A7441D /* ContentView.swift */,
+				93CA9E9029DBD03B00A7441D /* App */,
+				93CA9E9829DBD56F00A7441D /* Modules */,
 				93CA9E8629DBCEDE00A7441D /* Assets.xcassets */,
 				93CA9E8829DBCEDE00A7441D /* Preview Content */,
 			);
@@ -67,6 +71,40 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		93CA9E9029DBD03B00A7441D /* App */ = {
+			isa = PBXGroup;
+			children = (
+				93CA9E8229DBCEDD00A7441D /* ReadlyApp.swift */,
+				93CA9E8429DBCEDD00A7441D /* ContentView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		93CA9E9129DBD09300A7441D /* Challenge */ = {
+			isa = PBXGroup;
+			children = (
+				93CA9E9229DBD0A800A7441D /* ChallengeView.swift */,
+			);
+			path = Challenge;
+			sourceTree = "<group>";
+		};
+		93CA9E9729DBD56600A7441D /* Summary */ = {
+			isa = PBXGroup;
+			children = (
+				93CA9E9929DBD58900A7441D /* SummaryView.swift */,
+			);
+			path = Summary;
+			sourceTree = "<group>";
+		};
+		93CA9E9829DBD56F00A7441D /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				93CA9E9129DBD09300A7441D /* Challenge */,
+				93CA9E9729DBD56600A7441D /* Summary */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,6 +115,7 @@
 				93CA9E7B29DBCEDD00A7441D /* Sources */,
 				93CA9E7C29DBCEDD00A7441D /* Frameworks */,
 				93CA9E7D29DBCEDD00A7441D /* Resources */,
+				93CA9E9629DBD3F200A7441D /* Run SwiftLint Script */,
 			);
 			buildRules = (
 			);
@@ -111,6 +150,8 @@
 				Base,
 			);
 			mainGroup = 93CA9E7629DBCEDD00A7441D;
+			packageReferences = (
+			);
 			productRefGroup = 93CA9E8029DBCEDD00A7441D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -132,13 +173,37 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		93CA9E9629DBD3F200A7441D /* Run SwiftLint Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run SwiftLint Script";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export PATH=\"$PATH:/opt/homebrew/bin\"\nif which swiftlint > /dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		93CA9E7B29DBCEDD00A7441D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				93CA9E8529DBCEDD00A7441D /* ContentView.swift in Sources */,
+				93CA9E9A29DBD58900A7441D /* SummaryView.swift in Sources */,
 				93CA9E8329DBCEDD00A7441D /* ReadlyApp.swift in Sources */,
+				93CA9E9329DBD0A800A7441D /* ChallengeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
