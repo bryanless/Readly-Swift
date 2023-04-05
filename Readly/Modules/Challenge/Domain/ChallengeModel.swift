@@ -29,9 +29,9 @@ let challengeList = [
   ChallengeModel(
     id: 2,
     title: "Night Time Challenge",
-    currentDayCount: 0,
-    endDayCount: 0,
-    pageCount: 15,
-    dayPageCountList: [7, 8],
+    currentDayCount: 14,
+    endDayCount: 14,
+    pageCount: 70,
+    dayPageCountList: [5, 5, 3, 6, 1, 4, 6, 6, 6, 8, 5, 6, 5, 4],
     isOngoing: false)
 ]

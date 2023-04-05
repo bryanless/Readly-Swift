@@ -13,7 +13,9 @@ struct ChallengeDetailView: View {
   var body: some View {
     ScrollView(showsIndicators: false) {
       content
-    }.navigationBarTitleDisplayMode(.inline)
+    }
+    .background(Color(uiColor: UIColor.secondarySystemBackground))
+    .navigationBarTitleDisplayMode(.inline)
   }
 }
 
@@ -29,9 +31,10 @@ extension ChallengeDetailView {
   }
 
   var progress: some View {
-    VStack(alignment: .leading) {
+    VStack(alignment: .leading, spacing: Space.medium) {
       Text("Progress")
-        .font(.headline)
+        .font(.title3)
+        .fontWeight(.bold)
       LinearProgressIndicator(
         "\(challenge.currentDayCount)/\(challenge.endDayCount) days",
         value: Double(challenge.currentDayCount),
@@ -40,16 +43,24 @@ extension ChallengeDetailView {
   }
 
   var session: some View {
-    VStack(alignment: .leading, spacing: Space.small) {
-      ForEach(challenge.dayPageCountList, id: \.self) { pageCount in
-        Text("Day \(pageCount.description)")
-      }
+    VStack(alignment: .leading, spacing: Space.medium) {
+      Text("Session")
+        .font(.title3)
+        .fontWeight(.bold)
+      VStack(spacing: Space.none) {
+        ForEach(Array(challenge.dayPageCountList.enumerated().reversed()), id: \.offset) { index, pageCount in
+          SessionRowListItem(
+            day: index + 1,
+            pageCount: pageCount,
+            isLastItem: index == 0)
+        }
+      }.cornerRadius(Shape.small)
     }
   }
 }
 
 struct ChallengeDetailView_Previews: PreviewProvider {
   static var previews: some View {
-    ChallengeDetailView(challenge: challengeList.first!)
+    ChallengeDetailView(challenge: challengeList[1])
   }
 }

@@ -21,6 +21,7 @@
 		93CA9EB129DC62DA00A7441D /* ChallengeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CA9EB029DC62DA00A7441D /* ChallengeModel.swift */; };
 		93E54DCC29DD057E00F725AC /* ObservableScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E54DCB29DD057E00F725AC /* ObservableScrollView.swift */; };
 		93E54DCE29DD191400F725AC /* ChallengeAddProgressSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E54DCD29DD191400F725AC /* ChallengeAddProgressSheet.swift */; };
+		93E54DD229DD451C00F725AC /* SessionRowListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E54DD129DD451C00F725AC /* SessionRowListItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		93CA9EB029DC62DA00A7441D /* ChallengeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeModel.swift; sourceTree = "<group>"; };
 		93E54DCB29DD057E00F725AC /* ObservableScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableScrollView.swift; sourceTree = "<group>"; };
 		93E54DCD29DD191400F725AC /* ChallengeAddProgressSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeAddProgressSheet.swift; sourceTree = "<group>"; };
+		93E54DD129DD451C00F725AC /* SessionRowListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionRowListItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +165,7 @@
 			isa = PBXGroup;
 			children = (
 				93CA9EA929DBE3DF00A7441D /* ChallengeDetailView.swift */,
+				93E54DD129DD451C00F725AC /* SessionRowListItem.swift */,
 			);
 			path = ChallengeDetail;
 			sourceTree = "<group>";
@@ -290,6 +293,7 @@
 			files = (
 				93E54DCC29DD057E00F725AC /* ObservableScrollView.swift in Sources */,
 				93CA9E8529DBCEDD00A7441D /* ContentView.swift in Sources */,
+				93E54DD229DD451C00F725AC /* SessionRowListItem.swift in Sources */,
 				93CA9EB129DC62DA00A7441D /* ChallengeModel.swift in Sources */,
 				93CA9E9A29DBD58900A7441D /* SummaryView.swift in Sources */,
 				93CA9EA529DBDBD900A7441D /* Space.swift in Sources */,
