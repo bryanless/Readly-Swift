@@ -11,8 +11,16 @@
 		93CA9E8529DBCEDD00A7441D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CA9E8429DBCEDD00A7441D /* ContentView.swift */; };
 		93CA9E8729DBCEDE00A7441D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93CA9E8629DBCEDE00A7441D /* Assets.xcassets */; };
 		93CA9E8A29DBCEDE00A7441D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93CA9E8929DBCEDE00A7441D /* Preview Assets.xcassets */; };
-		93CA9E9329DBD0A800A7441D /* ChallengeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CA9E9229DBD0A800A7441D /* ChallengeView.swift */; };
+		93CA9E9329DBD0A800A7441D /* ChallengeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CA9E9229DBD0A800A7441D /* ChallengeListView.swift */; };
 		93CA9E9A29DBD58900A7441D /* SummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CA9E9929DBD58900A7441D /* SummaryView.swift */; };
+		93CA9E9F29DBDAE000A7441D /* ChallengeRowCardItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CA9E9E29DBDAE000A7441D /* ChallengeRowCardItem.swift */; };
+		93CA9EA529DBDBD900A7441D /* Space.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CA9EA429DBDBD900A7441D /* Space.swift */; };
+		93CA9EA729DBDC0400A7441D /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CA9EA629DBDC0400A7441D /* Shape.swift */; };
+		93CA9EAA29DBE3DF00A7441D /* ChallengeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CA9EA929DBE3DF00A7441D /* ChallengeDetailView.swift */; };
+		93CA9EAD29DBE58700A7441D /* LinearProgressIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CA9EAC29DBE58700A7441D /* LinearProgressIndicator.swift */; };
+		93CA9EB129DC62DA00A7441D /* ChallengeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CA9EB029DC62DA00A7441D /* ChallengeModel.swift */; };
+		93E54DCC29DD057E00F725AC /* ObservableScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E54DCB29DD057E00F725AC /* ObservableScrollView.swift */; };
+		93E54DCE29DD191400F725AC /* ChallengeAddProgressSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E54DCD29DD191400F725AC /* ChallengeAddProgressSheet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,8 +29,16 @@
 		93CA9E8429DBCEDD00A7441D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		93CA9E8629DBCEDE00A7441D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		93CA9E8929DBCEDE00A7441D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		93CA9E9229DBD0A800A7441D /* ChallengeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeView.swift; sourceTree = "<group>"; };
+		93CA9E9229DBD0A800A7441D /* ChallengeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeListView.swift; sourceTree = "<group>"; };
 		93CA9E9929DBD58900A7441D /* SummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryView.swift; sourceTree = "<group>"; };
+		93CA9E9E29DBDAE000A7441D /* ChallengeRowCardItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeRowCardItem.swift; sourceTree = "<group>"; };
+		93CA9EA429DBDBD900A7441D /* Space.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Space.swift; sourceTree = "<group>"; };
+		93CA9EA629DBDC0400A7441D /* Shape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
+		93CA9EA929DBE3DF00A7441D /* ChallengeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeDetailView.swift; sourceTree = "<group>"; };
+		93CA9EAC29DBE58700A7441D /* LinearProgressIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearProgressIndicator.swift; sourceTree = "<group>"; };
+		93CA9EB029DC62DA00A7441D /* ChallengeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeModel.swift; sourceTree = "<group>"; };
+		93E54DCB29DD057E00F725AC /* ObservableScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableScrollView.swift; sourceTree = "<group>"; };
+		93E54DCD29DD191400F725AC /* ChallengeAddProgressSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeAddProgressSheet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +72,8 @@
 			isa = PBXGroup;
 			children = (
 				93CA9E9029DBD03B00A7441D /* App */,
+				93CA9EA329DBDBCB00A7441D /* Core */,
+				93CA9E9D29DBDAC200A7441D /* Common */,
 				93CA9E9829DBD56F00A7441D /* Modules */,
 				93CA9E8629DBCEDE00A7441D /* Assets.xcassets */,
 				93CA9E8829DBCEDE00A7441D /* Preview Content */,
@@ -80,12 +98,12 @@
 			path = App;
 			sourceTree = "<group>";
 		};
-		93CA9E9129DBD09300A7441D /* Challenge */ = {
+		93CA9E9129DBD09300A7441D /* ChallengeList */ = {
 			isa = PBXGroup;
 			children = (
-				93CA9E9229DBD0A800A7441D /* ChallengeView.swift */,
+				93CA9EAE29DC62B200A7441D /* View */,
 			);
-			path = Challenge;
+			path = ChallengeList;
 			sourceTree = "<group>";
 		};
 		93CA9E9729DBD56600A7441D /* Summary */ = {
@@ -99,10 +117,80 @@
 		93CA9E9829DBD56F00A7441D /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				93CA9E9129DBD09300A7441D /* Challenge */,
+				93CA9EB329DC63B400A7441D /* Challenge */,
+				93CA9E9129DBD09300A7441D /* ChallengeList */,
+				93CA9EAB29DBE4BF00A7441D /* ChallengeDetail */,
 				93CA9E9729DBD56600A7441D /* Summary */,
 			);
 			path = Modules;
+			sourceTree = "<group>";
+		};
+		93CA9E9D29DBDAC200A7441D /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				93CA9EA029DBDB7C00A7441D /* View */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		93CA9EA029DBDB7C00A7441D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				93CA9EAC29DBE58700A7441D /* LinearProgressIndicator.swift */,
+				93E54DCB29DD057E00F725AC /* ObservableScrollView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		93CA9EA329DBDBCB00A7441D /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				93CA9EA829DBDEB700A7441D /* Theme */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		93CA9EA829DBDEB700A7441D /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				93CA9EA629DBDC0400A7441D /* Shape.swift */,
+				93CA9EA429DBDBD900A7441D /* Space.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		93CA9EAB29DBE4BF00A7441D /* ChallengeDetail */ = {
+			isa = PBXGroup;
+			children = (
+				93CA9EA929DBE3DF00A7441D /* ChallengeDetailView.swift */,
+			);
+			path = ChallengeDetail;
+			sourceTree = "<group>";
+		};
+		93CA9EAE29DC62B200A7441D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				93CA9E9229DBD0A800A7441D /* ChallengeListView.swift */,
+				93E54DCD29DD191400F725AC /* ChallengeAddProgressSheet.swift */,
+				93CA9E9E29DBDAE000A7441D /* ChallengeRowCardItem.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		93CA9EAF29DC62B800A7441D /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				93CA9EB029DC62DA00A7441D /* ChallengeModel.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		93CA9EB329DC63B400A7441D /* Challenge */ = {
+			isa = PBXGroup;
+			children = (
+				93CA9EAF29DC62B800A7441D /* Domain */,
+			);
+			path = Challenge;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,10 +288,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93E54DCC29DD057E00F725AC /* ObservableScrollView.swift in Sources */,
 				93CA9E8529DBCEDD00A7441D /* ContentView.swift in Sources */,
+				93CA9EB129DC62DA00A7441D /* ChallengeModel.swift in Sources */,
 				93CA9E9A29DBD58900A7441D /* SummaryView.swift in Sources */,
+				93CA9EA529DBDBD900A7441D /* Space.swift in Sources */,
 				93CA9E8329DBCEDD00A7441D /* ReadlyApp.swift in Sources */,
-				93CA9E9329DBD0A800A7441D /* ChallengeView.swift in Sources */,
+				93CA9E9329DBD0A800A7441D /* ChallengeListView.swift in Sources */,
+				93CA9EAA29DBE3DF00A7441D /* ChallengeDetailView.swift in Sources */,
+				93E54DCE29DD191400F725AC /* ChallengeAddProgressSheet.swift in Sources */,
+				93CA9EAD29DBE58700A7441D /* LinearProgressIndicator.swift in Sources */,
+				93CA9E9F29DBDAE000A7441D /* ChallengeRowCardItem.swift in Sources */,
+				93CA9EA729DBDC0400A7441D /* Shape.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

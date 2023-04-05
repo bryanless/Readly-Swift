@@ -8,31 +8,27 @@
 import SwiftUI
 
 struct ContentView: View {
-  @State var selectedTab: ReadlyTab = .challenge
-
   var body: some View {
-    TabView(selection: $selectedTab) {
+    TabView {
       NavigationStack {
-        ChallengeView()
+        ChallengeListView<ChallengeDetailView>(detailDestination: { challenge in
+          ChallengeDetailView(challenge: challenge)
+        })
+        .navigationTitle("Challenge")
       }
       .tabItem {
         Label("Challenge", systemImage: "target")
       }
-      .tag(ReadlyTab.challenge)
 
       NavigationStack {
         SummaryView()
+          .navigationTitle("Summary")
       }
       .tabItem {
         Label("Summary", systemImage: "chart.bar.xaxis")
       }
-      .tag(ReadlyTab.summary)
     }
   }
-}
-
-enum ReadlyTab {
-  case challenge, summary
 }
 
 struct ContentView_Previews: PreviewProvider {
