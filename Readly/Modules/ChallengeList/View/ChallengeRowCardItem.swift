@@ -36,6 +36,7 @@ extension ChallengeRowCardItem {
           Button("Add progress") {
             isSheetPresented.toggle()
           }
+          .buttonStyle(.borderedProminent)
           .sheet(isPresented: $isSheetPresented) {
             ChallengeAddProgressSheet(isPresented: $isSheetPresented)
           }
