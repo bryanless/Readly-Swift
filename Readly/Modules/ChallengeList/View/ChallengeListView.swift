@@ -14,13 +14,13 @@ struct ChallengeListView<DetailDestination: View>: View {
     ScrollView(showsIndicators: false) {
       content
     }
-    .padding(Space.medium)
+    .padding(Space.large)
   }
 }
 
 extension ChallengeListView {
   var content: some View {
-    LazyVStack(alignment: .leading, spacing: Space.large) {
+    LazyVStack(alignment: .leading, spacing: Space.extraLarge) {
       ongoingChallenge
       completedChallenge
     }
@@ -58,7 +58,9 @@ extension ChallengeListView {
 struct ChallengeView_Previews: PreviewProvider {
   static var previews: some View {
     ChallengeListView<ChallengeDetailView>(detailDestination: { challenge in
-      ChallengeDetailView(challenge: challenge)
+      ChallengeDetailView(challenge: challenge) { day, session in
+        SessionDetailView(day: day, session: session)
+      }
     })
   }
 }

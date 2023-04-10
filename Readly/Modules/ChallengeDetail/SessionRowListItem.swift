@@ -22,7 +22,7 @@ struct SessionRowListItem: View {
         Image(systemName: "chevron.right")
           .foregroundColor(.secondary)
       }
-      .padding(.horizontal, Space.medium)
+      .padding(.horizontal, Space.large)
       .padding(.vertical, Space.small)
       if !isLastItem {
         Divider()

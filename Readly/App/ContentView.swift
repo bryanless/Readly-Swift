@@ -12,7 +12,9 @@ struct ContentView: View {
     TabView {
       NavigationStack {
         ChallengeListView<ChallengeDetailView>(detailDestination: { challenge in
-          ChallengeDetailView(challenge: challenge)
+          ChallengeDetailView(challenge: challenge) { day, session in
+            SessionDetailView(day: day, session: session)
+          }
         })
         .navigationTitle("Challenge")
       }

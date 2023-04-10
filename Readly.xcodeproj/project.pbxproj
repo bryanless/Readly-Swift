@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9396974F29DD7BAF00ED8391 /* SessionDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9396974E29DD7BAF00ED8391 /* SessionDetailView.swift */; };
+		9396975129DD7F4200ED8391 /* SessionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9396975029DD7F4200ED8391 /* SessionModel.swift */; };
 		93CA9E8329DBCEDD00A7441D /* ReadlyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CA9E8229DBCEDD00A7441D /* ReadlyApp.swift */; };
 		93CA9E8529DBCEDD00A7441D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CA9E8429DBCEDD00A7441D /* ContentView.swift */; };
 		93CA9E8729DBCEDE00A7441D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93CA9E8629DBCEDE00A7441D /* Assets.xcassets */; };
@@ -15,16 +17,20 @@
 		93CA9E9A29DBD58900A7441D /* SummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CA9E9929DBD58900A7441D /* SummaryView.swift */; };
 		93CA9E9F29DBDAE000A7441D /* ChallengeRowCardItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CA9E9E29DBDAE000A7441D /* ChallengeRowCardItem.swift */; };
 		93CA9EA529DBDBD900A7441D /* Space.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CA9EA429DBDBD900A7441D /* Space.swift */; };
-		93CA9EA729DBDC0400A7441D /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CA9EA629DBDC0400A7441D /* Shape.swift */; };
+		93CA9EA729DBDC0400A7441D /* RoundedShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CA9EA629DBDC0400A7441D /* RoundedShape.swift */; };
 		93CA9EAA29DBE3DF00A7441D /* ChallengeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CA9EA929DBE3DF00A7441D /* ChallengeDetailView.swift */; };
 		93CA9EAD29DBE58700A7441D /* LinearProgressIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CA9EAC29DBE58700A7441D /* LinearProgressIndicator.swift */; };
 		93CA9EB129DC62DA00A7441D /* ChallengeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CA9EB029DC62DA00A7441D /* ChallengeModel.swift */; };
+		93D0208129DE6F8F002F750E /* BaseRowCardItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D0208029DE6F8F002F750E /* BaseRowCardItem.swift */; };
+		93D0208729DE74A8002F750E /* EmojiPicker in Frameworks */ = {isa = PBXBuildFile; productRef = 93D0208629DE74A8002F750E /* EmojiPicker */; };
 		93E54DCC29DD057E00F725AC /* ObservableScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E54DCB29DD057E00F725AC /* ObservableScrollView.swift */; };
 		93E54DCE29DD191400F725AC /* ChallengeAddProgressSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E54DCD29DD191400F725AC /* ChallengeAddProgressSheet.swift */; };
 		93E54DD229DD451C00F725AC /* SessionRowListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E54DD129DD451C00F725AC /* SessionRowListItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9396974E29DD7BAF00ED8391 /* SessionDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionDetailView.swift; sourceTree = "<group>"; };
+		9396975029DD7F4200ED8391 /* SessionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionModel.swift; sourceTree = "<group>"; };
 		93CA9E7F29DBCEDD00A7441D /* Readly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Readly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93CA9E8229DBCEDD00A7441D /* ReadlyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadlyApp.swift; sourceTree = "<group>"; };
 		93CA9E8429DBCEDD00A7441D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -34,10 +40,11 @@
 		93CA9E9929DBD58900A7441D /* SummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryView.swift; sourceTree = "<group>"; };
 		93CA9E9E29DBDAE000A7441D /* ChallengeRowCardItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeRowCardItem.swift; sourceTree = "<group>"; };
 		93CA9EA429DBDBD900A7441D /* Space.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Space.swift; sourceTree = "<group>"; };
-		93CA9EA629DBDC0400A7441D /* Shape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
+		93CA9EA629DBDC0400A7441D /* RoundedShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShape.swift; sourceTree = "<group>"; };
 		93CA9EA929DBE3DF00A7441D /* ChallengeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeDetailView.swift; sourceTree = "<group>"; };
 		93CA9EAC29DBE58700A7441D /* LinearProgressIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearProgressIndicator.swift; sourceTree = "<group>"; };
 		93CA9EB029DC62DA00A7441D /* ChallengeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeModel.swift; sourceTree = "<group>"; };
+		93D0208029DE6F8F002F750E /* BaseRowCardItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseRowCardItem.swift; sourceTree = "<group>"; };
 		93E54DCB29DD057E00F725AC /* ObservableScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableScrollView.swift; sourceTree = "<group>"; };
 		93E54DCD29DD191400F725AC /* ChallengeAddProgressSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeAddProgressSheet.swift; sourceTree = "<group>"; };
 		93E54DD129DD451C00F725AC /* SessionRowListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionRowListItem.swift; sourceTree = "<group>"; };
@@ -48,12 +55,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93D0208729DE74A8002F750E /* EmojiPicker in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9396974D29DD7B7F00ED8391 /* SessionDetail */ = {
+			isa = PBXGroup;
+			children = (
+				9396974E29DD7BAF00ED8391 /* SessionDetailView.swift */,
+			);
+			path = SessionDetail;
+			sourceTree = "<group>";
+		};
 		93CA9E7629DBCEDD00A7441D = {
 			isa = PBXGroup;
 			children = (
@@ -122,6 +138,7 @@
 				93CA9EB329DC63B400A7441D /* Challenge */,
 				93CA9E9129DBD09300A7441D /* ChallengeList */,
 				93CA9EAB29DBE4BF00A7441D /* ChallengeDetail */,
+				9396974D29DD7B7F00ED8391 /* SessionDetail */,
 				93CA9E9729DBD56600A7441D /* Summary */,
 			);
 			path = Modules;
@@ -138,6 +155,7 @@
 		93CA9EA029DBDB7C00A7441D /* View */ = {
 			isa = PBXGroup;
 			children = (
+				93D0208029DE6F8F002F750E /* BaseRowCardItem.swift */,
 				93CA9EAC29DBE58700A7441D /* LinearProgressIndicator.swift */,
 				93E54DCB29DD057E00F725AC /* ObservableScrollView.swift */,
 			);
@@ -155,7 +173,7 @@
 		93CA9EA829DBDEB700A7441D /* Theme */ = {
 			isa = PBXGroup;
 			children = (
-				93CA9EA629DBDC0400A7441D /* Shape.swift */,
+				93CA9EA629DBDC0400A7441D /* RoundedShape.swift */,
 				93CA9EA429DBDBD900A7441D /* Space.swift */,
 			);
 			path = Theme;
@@ -184,6 +202,7 @@
 			isa = PBXGroup;
 			children = (
 				93CA9EB029DC62DA00A7441D /* ChallengeModel.swift */,
+				9396975029DD7F4200ED8391 /* SessionModel.swift */,
 			);
 			path = Domain;
 			sourceTree = "<group>";
@@ -213,6 +232,9 @@
 			dependencies = (
 			);
 			name = Readly;
+			packageProductDependencies = (
+				93D0208629DE74A8002F750E /* EmojiPicker */,
+			);
 			productName = Readly;
 			productReference = 93CA9E7F29DBCEDD00A7441D /* Readly.app */;
 			productType = "com.apple.product-type.application";
@@ -242,6 +264,7 @@
 			);
 			mainGroup = 93CA9E7629DBCEDD00A7441D;
 			packageReferences = (
+				93D0208529DE74A8002F750E /* XCRemoteSwiftPackageReference "EmojiPicker" */,
 			);
 			productRefGroup = 93CA9E8029DBCEDD00A7441D /* Products */;
 			projectDirPath = "";
@@ -295,6 +318,7 @@
 				93CA9E8529DBCEDD00A7441D /* ContentView.swift in Sources */,
 				93E54DD229DD451C00F725AC /* SessionRowListItem.swift in Sources */,
 				93CA9EB129DC62DA00A7441D /* ChallengeModel.swift in Sources */,
+				9396974F29DD7BAF00ED8391 /* SessionDetailView.swift in Sources */,
 				93CA9E9A29DBD58900A7441D /* SummaryView.swift in Sources */,
 				93CA9EA529DBDBD900A7441D /* Space.swift in Sources */,
 				93CA9E8329DBCEDD00A7441D /* ReadlyApp.swift in Sources */,
@@ -302,8 +326,10 @@
 				93CA9EAA29DBE3DF00A7441D /* ChallengeDetailView.swift in Sources */,
 				93E54DCE29DD191400F725AC /* ChallengeAddProgressSheet.swift in Sources */,
 				93CA9EAD29DBE58700A7441D /* LinearProgressIndicator.swift in Sources */,
+				93D0208129DE6F8F002F750E /* BaseRowCardItem.swift in Sources */,
 				93CA9E9F29DBDAE000A7441D /* ChallengeRowCardItem.swift in Sources */,
-				93CA9EA729DBDC0400A7441D /* Shape.swift in Sources */,
+				93CA9EA729DBDC0400A7441D /* RoundedShape.swift in Sources */,
+				9396975129DD7F4200ED8391 /* SessionModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -504,6 +530,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		93D0208529DE74A8002F750E /* XCRemoteSwiftPackageReference "EmojiPicker" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Kelvas09/EmojiPicker.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		93D0208629DE74A8002F750E /* EmojiPicker */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 93D0208529DE74A8002F750E /* XCRemoteSwiftPackageReference "EmojiPicker" */;
+			productName = EmojiPicker;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 93CA9E7729DBCEDD00A7441D /* Project object */;
 }

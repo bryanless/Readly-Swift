@@ -17,7 +17,7 @@ struct ChallengeRowCardItem: View {
     }
     .background(.white)
     .overlay(
-      RoundedRectangle(cornerRadius: Shape.small)
+      RoundedRectangle(cornerRadius: RoundedShape.medium)
         .stroke(.gray, lineWidth: 1)
     )
   }
@@ -25,7 +25,7 @@ struct ChallengeRowCardItem: View {
 
 extension ChallengeRowCardItem {
   var content: some View {
-    VStack(alignment: .leading, spacing: Space.medium) {
+    VStack(alignment: .leading, spacing: Space.large) {
       Text(challenge.title)
         .font(.body)
         .lineLimit(2, reservesSpace: true)
@@ -42,7 +42,7 @@ extension ChallengeRowCardItem {
         }
       }
     }
-    .padding(Space.medium)
+    .padding(Space.large)
   }
 
   var information: some View {
