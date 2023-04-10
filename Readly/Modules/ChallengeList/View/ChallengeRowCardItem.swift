@@ -33,7 +33,7 @@ extension ChallengeRowCardItem {
         information
         Spacer()
         if challenge.isOngoing {
-          Button("Add") {
+          Button("Add progress") {
             isSheetPresented.toggle()
           }
           .sheet(isPresented: $isSheetPresented) {

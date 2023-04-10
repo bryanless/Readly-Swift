@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9374021329E3C1C500BE30DD /* FormTextFieldRowItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9374021229E3C1C500BE30DD /* FormTextFieldRowItem.swift */; };
+		9374021529E3C4C800BE30DD /* ChallengeCreateChallengeSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9374021429E3C4C800BE30DD /* ChallengeCreateChallengeSheet.swift */; };
 		9396974F29DD7BAF00ED8391 /* SessionDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9396974E29DD7BAF00ED8391 /* SessionDetailView.swift */; };
 		9396975129DD7F4200ED8391 /* SessionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9396975029DD7F4200ED8391 /* SessionModel.swift */; };
 		93CA9E8329DBCEDD00A7441D /* ReadlyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CA9E8229DBCEDD00A7441D /* ReadlyApp.swift */; };
@@ -29,6 +31,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9374021229E3C1C500BE30DD /* FormTextFieldRowItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormTextFieldRowItem.swift; sourceTree = "<group>"; };
+		9374021429E3C4C800BE30DD /* ChallengeCreateChallengeSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeCreateChallengeSheet.swift; sourceTree = "<group>"; };
 		9396974E29DD7BAF00ED8391 /* SessionDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionDetailView.swift; sourceTree = "<group>"; };
 		9396975029DD7F4200ED8391 /* SessionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionModel.swift; sourceTree = "<group>"; };
 		93CA9E7F29DBCEDD00A7441D /* Readly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Readly.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -156,6 +160,7 @@
 			isa = PBXGroup;
 			children = (
 				93D0208029DE6F8F002F750E /* BaseRowCardItem.swift */,
+				9374021229E3C1C500BE30DD /* FormTextFieldRowItem.swift */,
 				93CA9EAC29DBE58700A7441D /* LinearProgressIndicator.swift */,
 				93E54DCB29DD057E00F725AC /* ObservableScrollView.swift */,
 			);
@@ -192,6 +197,7 @@
 			isa = PBXGroup;
 			children = (
 				93CA9E9229DBD0A800A7441D /* ChallengeListView.swift */,
+				9374021429E3C4C800BE30DD /* ChallengeCreateChallengeSheet.swift */,
 				93E54DCD29DD191400F725AC /* ChallengeAddProgressSheet.swift */,
 				93CA9E9E29DBDAE000A7441D /* ChallengeRowCardItem.swift */,
 			);
@@ -317,6 +323,7 @@
 				93E54DCC29DD057E00F725AC /* ObservableScrollView.swift in Sources */,
 				93CA9E8529DBCEDD00A7441D /* ContentView.swift in Sources */,
 				93E54DD229DD451C00F725AC /* SessionRowListItem.swift in Sources */,
+				9374021329E3C1C500BE30DD /* FormTextFieldRowItem.swift in Sources */,
 				93CA9EB129DC62DA00A7441D /* ChallengeModel.swift in Sources */,
 				9396974F29DD7BAF00ED8391 /* SessionDetailView.swift in Sources */,
 				93CA9E9A29DBD58900A7441D /* SummaryView.swift in Sources */,
@@ -330,6 +337,7 @@
 				93CA9E9F29DBDAE000A7441D /* ChallengeRowCardItem.swift in Sources */,
 				93CA9EA729DBDC0400A7441D /* RoundedShape.swift in Sources */,
 				9396975129DD7F4200ED8391 /* SessionModel.swift in Sources */,
+				9374021529E3C4C800BE30DD /* ChallengeCreateChallengeSheet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

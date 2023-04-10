@@ -1,35 +1,35 @@
 //
-//  ChallengeAddProgressSheet.swift
+//  ChallengeCreateChallengeSheet.swift
 //  Readly
 //
-//  Created by Bryan on 05/04/23.
+//  Created by Bryan on 10/04/23.
 //
 
 import Combine
 import SwiftUI
 
-struct ChallengeAddProgressSheet: View {
-  @State var pageCount: String = ""
-  @State var note: String = ""
+struct ChallengeCreateChallengeSheet: View {
+  @State var name: String = ""
+  @State var days: String = ""
   @Binding var isPresented: Bool
 
   var body: some View {
     NavigationStack {
       Form {
         FormTextFieldRowItem(
-          title: "Pages",
-          placeholder: "5",
-          value: $pageCount)
+          title: "Name",
+          placeholder: "Fresh Morning Challenge",
+          value: $name)
+        FormTextFieldRowItem(
+          title: "Days",
+          placeholder: "7",
+          value: $days)
         .keyboardType(.numberPad)
-        .onReceive(Just(pageCount)) { newValue in
+        .onReceive(Just(days)) { newValue in
           let filtered = newValue.filter { "0123456789".contains($0) }
           if filtered != newValue {
-            self.pageCount = filtered
+            self.days = filtered
           }
-        }
-        Section("Note") {
-          TextEditor(text: $note)
-            .frame(minHeight: 240)
         }
       }
       .toolbar {
@@ -44,18 +44,18 @@ struct ChallengeAddProgressSheet: View {
           Button {
             isPresented.toggle()
           } label: {
-            Text("Add")
+            Text("Create")
           }
         }
       }
-      .navigationTitle("Add progress")
+      .navigationTitle("Create challenge")
       .navigationBarTitleDisplayMode(.inline)
     }
   }
 }
 
-struct ChallengeAddProgressSheet_Previews: PreviewProvider {
+struct ChallengeCreateChallengeSheet_Previews: PreviewProvider {
   static var previews: some View {
-    ChallengeAddProgressSheet(isPresented: .constant(true))
+    ChallengeCreateChallengeSheet(isPresented: .constant(true))
   }
 }

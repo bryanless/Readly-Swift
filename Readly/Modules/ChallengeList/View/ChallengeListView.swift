@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct ChallengeListView<DetailDestination: View>: View {
+  @State var isCreateChallengeSheetPresented: Bool = false
   let detailDestination: ((_ challenge: ChallengeModel) -> DetailDestination)
 
   var body: some View {
@@ -15,6 +16,18 @@ struct ChallengeListView<DetailDestination: View>: View {
       content
     }
     .padding(Space.large)
+    .toolbar {
+      ToolbarItem(placement: .primaryAction) {
+        Button {
+          isCreateChallengeSheetPresented.toggle()
+        } label: {
+          Image(systemName: "plus")
+        }
+      }
+    }
+    .sheet(isPresented: $isCreateChallengeSheetPresented) {
+      ChallengeCreateChallengeSheet(isPresented: $isCreateChallengeSheetPresented)
+    }
   }
 }
 
