@@ -5,10 +5,12 @@
 //  Created by Bryan on 04/04/23.
 //
 
+import EmojiPicker
 import Foundation
 
 struct ChallengeModel: Identifiable {
   let id: Int
+  var emoji: Emoji?
   let title: String
   var currentDayCount: Int
   let endDayCount: Int
@@ -20,6 +22,7 @@ struct ChallengeModel: Identifiable {
 let challengeList = [
   ChallengeModel(
     id: 1,
+    emoji: Emoji(value: "☀️", name: ""),
     title: "Fresh Morning Challenge",
     currentDayCount: 2,
     endDayCount: 7,
@@ -37,6 +40,7 @@ let challengeList = [
     isOngoing: true),
   ChallengeModel(
     id: 2,
+    emoji: Emoji(value: "🌙", name: ""),
     title: "Night Time Challenge",
     currentDayCount: 14,
     endDayCount: 14,

@@ -6,32 +6,48 @@
 //
 
 import Combine
+import EmojiPicker
 import SwiftUI
 
 struct ChallengeCreateChallengeSheet: View {
+  @State private var isEmojiPickerPresented: Bool = false
+
+  @State var emoji: Emoji? = Emoji(value: "🔥", name: "")
   @State var name: String = ""
   @State var days: String = ""
   @Binding var isPresented: Bool
 
   var body: some View {
     NavigationStack {
-      Form {
-        FormTextFieldRowItem(
-          title: "Name",
-          placeholder: "Fresh Morning Challenge",
-          value: $name)
-        FormTextFieldRowItem(
-          title: "Days",
-          placeholder: "7",
-          value: $days)
-        .keyboardType(.numberPad)
-        .onReceive(Just(days)) { newValue in
-          let filtered = newValue.filter { "0123456789".contains($0) }
-          if filtered != newValue {
-            self.days = filtered
+      VStack(spacing: Space.none) {
+        Button {
+          isEmojiPickerPresented.toggle()
+        } label: {
+          Text(emoji!.value)
+            .font(.system(size: 64))
+        }
+        .padding(.top, Space.extraLarge)
+
+        Form {
+          FormTextFieldRowItem(
+            title: "Name",
+            placeholder: "Fresh Morning Challenge",
+            value: $name)
+          FormTextFieldRowItem(
+            title: "Days",
+            placeholder: "7",
+            value: $days)
+          .keyboardType(.numberPad)
+          .onReceive(Just(days)) { newValue in
+            let filtered = newValue.filter { "0123456789".contains($0) }
+            if filtered != newValue {
+              self.days = filtered
+            }
           }
         }
+
       }
+      .background(Color(uiColor: UIColor.secondarySystemBackground))
       .toolbar {
         ToolbarItem(placement: .cancellationAction) {
           Button {
@@ -50,6 +66,9 @@ struct ChallengeCreateChallengeSheet: View {
       }
       .navigationTitle("Create challenge")
       .navigationBarTitleDisplayMode(.inline)
+      .sheet(isPresented: $isEmojiPickerPresented) {
+        EmojiPickerSheetView(emoji: $emoji)
+      }
     }
   }
 }

@@ -26,9 +26,15 @@ struct ChallengeRowCardItem: View {
 extension ChallengeRowCardItem {
   var content: some View {
     VStack(alignment: .leading, spacing: Space.large) {
-      Text(challenge.title)
-        .font(.body)
-        .lineLimit(2, reservesSpace: true)
+      HStack(spacing: Space.medium) {
+        if challenge.emoji != nil {
+          Text(challenge.emoji!.value)
+            .font(.custom("", size: 44))
+        }
+        Text(challenge.title)
+          .font(.body)
+        .lineLimit(2)
+      }
       HStack(alignment: .bottom) {
         information
         Spacer()
