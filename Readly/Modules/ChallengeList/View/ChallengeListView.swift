@@ -15,7 +15,6 @@ struct ChallengeListView<DetailDestination: View>: View {
     ScrollView(showsIndicators: false) {
       content
     }
-    .padding(Space.large)
     .toolbar {
       ToolbarItem(placement: .primaryAction) {
         Button {
@@ -37,6 +36,7 @@ extension ChallengeListView {
       ongoingChallenge
       completedChallenge
     }
+    .padding(Space.large)
   }
 
   var ongoingChallenge: some View {

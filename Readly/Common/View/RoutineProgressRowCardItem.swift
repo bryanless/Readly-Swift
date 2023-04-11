@@ -52,7 +52,7 @@ struct RoutineProgressRowCardItem_Previews: PreviewProvider {
   static var previews: some View {
     RoutineProgressRowCardItem(
       emoji: emoji,
-      headline: "Page read",
+      headline: "Total page read",
       subheadline: "A subheadline",
       value: "7",
       color: .cyan)

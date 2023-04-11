@@ -32,7 +32,7 @@ extension ChallengeRowCardItem {
             .font(.custom("", size: 44))
         }
         Text(challenge.title)
-          .font(.body)
+          .font(.title3)
         .lineLimit(2)
       }
       HStack(alignment: .bottom) {
@@ -56,15 +56,16 @@ extension ChallengeRowCardItem {
     VStack(alignment: .leading) {
       if challenge.isOngoing {
         Text("\(challenge.currentDayCount)/\(challenge.endDayCount) days")
-          .font(.caption)
+          .font(.body)
           .foregroundColor(.secondary)
       } else {
         Text("\(challenge.endDayCount) days")
-          .font(.caption)
+          .font(.body)
           .foregroundColor(.secondary)
       }
       Text("\(challenge.pageCount) pages")
-        .font(.caption)
+        .font(.body
+        )
         .foregroundColor(.secondary)
     }
   }

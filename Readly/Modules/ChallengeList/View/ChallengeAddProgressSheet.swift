@@ -45,6 +45,7 @@ struct ChallengeAddProgressSheet: View {
             isPresented.toggle()
           } label: {
             Text("Add")
+              .bold()
           }
         }
       }

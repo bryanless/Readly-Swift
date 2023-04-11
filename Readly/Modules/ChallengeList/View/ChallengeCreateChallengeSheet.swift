@@ -61,6 +61,7 @@ struct ChallengeCreateChallengeSheet: View {
             isPresented.toggle()
           } label: {
             Text("Create")
+              .bold()
           }
         }
       }

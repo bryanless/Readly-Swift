@@ -33,9 +33,9 @@ extension SummaryView {
 
   var routineStatus: some View {
     RoutineStatusRowCardItem(
-      emoji: Emoji(value: "🥳", name: ""),
+      emoji: Emoji(value: "🤩", name: ""),
       headline: "Great, you are improving!",
-      value: "You read about **6 pages each day** in this last 7 days",
+      value: "You read about **6 pages daily** in the last 7 days",
       containerColor: Color("BlizzardBlueColor"))
   }
 

@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct SessionDetailView: View {
+  @FocusState private var isNoteFocused: Bool
+
   let day: Int
   @State var session: SessionModel
 
@@ -18,6 +20,18 @@ struct SessionDetailView: View {
     .background(Color(uiColor: UIColor.secondarySystemBackground))
     .navigationTitle("Day \(day.description)")
     .navigationBarTitleDisplayMode(.large)
+    .toolbar {
+      if isNoteFocused {
+        ToolbarItem(placement: .primaryAction) {
+          Button {
+            isNoteFocused.toggle()
+          } label: {
+            Text("Done")
+              .bold()
+          }
+        }
+      }
+    }
     .onAppear {
       UITextView.appearance().textContainerInset =
       UIEdgeInsets(
@@ -42,7 +56,7 @@ extension SessionDetailView {
     VStack(alignment: .leading, spacing: Space.large) {
       RoutineProgressRowCardItem(
         image: Image(systemName: "book"),
-        headline: "Page read",
+        headline: "Total page read",
         value: session.pageCount.description,
         cornerRadius: RoundedShape.small)
     }
@@ -56,9 +70,10 @@ extension SessionDetailView {
         .padding(.horizontal, Space.large)
 
       TextEditor(text: $session.note)
+        .focused($isNoteFocused)
         .cornerRadius(RoundedShape.small)
     }
-    .frame(minHeight: 500)
+    .frame(minHeight: 300)
   }
 }
 

@@ -14,16 +14,21 @@ struct SessionRowListItem: View {
 
   var body: some View {
     VStack(spacing: Space.none) {
-      HStack {
+      HStack(spacing: Space.medium) {
         Text("Day \(day)")
-          .frame(width: 100, alignment: .leading)
-        Text("\(pageCount.description) pages")
+          .frame(width: 80, alignment: .leading)
         Spacer()
-        Image(systemName: "chevron.right")
+        Text("\(pageCount.description) pages")
           .foregroundColor(.secondary)
+        Image(systemName: "chevron.right")
+          .resizable()
+          .aspectRatio(contentMode: .fit)
+          .frame(height: 12)
+          .foregroundColor(Color(UIColor.tertiaryLabel))
+          .bold()
       }
       .padding(.horizontal, Space.large)
-      .padding(.vertical, Space.small)
+      .padding(.vertical, Space.medium)
       if !isLastItem {
         Divider()
       }
