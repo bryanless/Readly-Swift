@@ -9,6 +9,7 @@ import Foundation
 
 struct SessionModel: Identifiable {
   let id: Int
+  var date: Date
   var pageCount: Int
   var note: String
 }

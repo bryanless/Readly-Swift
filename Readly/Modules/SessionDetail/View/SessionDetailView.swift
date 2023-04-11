@@ -40,7 +40,7 @@ extension SessionDetailView {
 
   var header: some View {
     VStack(alignment: .leading, spacing: Space.large) {
-      BaseRowCardItem(
+      RoutineProgressRowCardItem(
         image: Image(systemName: "book"),
         headline: "Page read",
         value: session.pageCount.description,
