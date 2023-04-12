@@ -7,22 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9374021329E3C1C500BE30DD /* FormTextFieldRowItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9374021229E3C1C500BE30DD /* FormTextFieldRowItem.swift */; };
+		9374021529E3C4C800BE30DD /* ChallengeCreateChallengeSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9374021429E3C4C800BE30DD /* ChallengeCreateChallengeSheet.swift */; };
+		9374021729E3CE2100BE30DD /* EmojiPickerSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9374021629E3CE2100BE30DD /* EmojiPickerSheetView.swift */; };
+		9396974F29DD7BAF00ED8391 /* SessionDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9396974E29DD7BAF00ED8391 /* SessionDetailView.swift */; };
+		9396975129DD7F4200ED8391 /* SessionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9396975029DD7F4200ED8391 /* SessionModel.swift */; };
+		93A945F829E3F2A000B1B725 /* BaseRowCardItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A945F729E3F2A000B1B725 /* BaseRowCardItem.swift */; };
+		93A945FA29E3F89D00B1B725 /* RoutineStatusRowCardItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A945F929E3F89D00B1B725 /* RoutineStatusRowCardItem.swift */; };
+		93A945FC29E4E85C00B1B725 /* RoutineProgressChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A945FB29E4E85C00B1B725 /* RoutineProgressChartView.swift */; };
+		93A9460029E4FD5900B1B725 /* DailyRoutineModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A945FF29E4FD5900B1B725 /* DailyRoutineModel.swift */; };
 		93CA9E8329DBCEDD00A7441D /* ReadlyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CA9E8229DBCEDD00A7441D /* ReadlyApp.swift */; };
 		93CA9E8529DBCEDD00A7441D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CA9E8429DBCEDD00A7441D /* ContentView.swift */; };
 		93CA9E8729DBCEDE00A7441D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93CA9E8629DBCEDE00A7441D /* Assets.xcassets */; };
 		93CA9E8A29DBCEDE00A7441D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93CA9E8929DBCEDE00A7441D /* Preview Assets.xcassets */; };
-		93CA9E9329DBD0A800A7441D /* ChallengeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CA9E9229DBD0A800A7441D /* ChallengeView.swift */; };
+		93CA9E9329DBD0A800A7441D /* ChallengeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CA9E9229DBD0A800A7441D /* ChallengeListView.swift */; };
 		93CA9E9A29DBD58900A7441D /* SummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CA9E9929DBD58900A7441D /* SummaryView.swift */; };
+		93CA9E9F29DBDAE000A7441D /* ChallengeRowCardItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CA9E9E29DBDAE000A7441D /* ChallengeRowCardItem.swift */; };
+		93CA9EA529DBDBD900A7441D /* Space.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CA9EA429DBDBD900A7441D /* Space.swift */; };
+		93CA9EA729DBDC0400A7441D /* RoundedShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CA9EA629DBDC0400A7441D /* RoundedShape.swift */; };
+		93CA9EAA29DBE3DF00A7441D /* ChallengeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CA9EA929DBE3DF00A7441D /* ChallengeDetailView.swift */; };
+		93CA9EAD29DBE58700A7441D /* LinearProgressIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CA9EAC29DBE58700A7441D /* LinearProgressIndicator.swift */; };
+		93CA9EB129DC62DA00A7441D /* ChallengeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CA9EB029DC62DA00A7441D /* ChallengeModel.swift */; };
+		93D0208129DE6F8F002F750E /* RoutineProgressRowCardItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D0208029DE6F8F002F750E /* RoutineProgressRowCardItem.swift */; };
+		93D0208729DE74A8002F750E /* EmojiPicker in Frameworks */ = {isa = PBXBuildFile; productRef = 93D0208629DE74A8002F750E /* EmojiPicker */; };
+		93E54DCC29DD057E00F725AC /* ObservableScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E54DCB29DD057E00F725AC /* ObservableScrollView.swift */; };
+		93E54DCE29DD191400F725AC /* ChallengeAddProgressSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E54DCD29DD191400F725AC /* ChallengeAddProgressSheet.swift */; };
+		93E54DD229DD451C00F725AC /* SessionRowListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E54DD129DD451C00F725AC /* SessionRowListItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9374021229E3C1C500BE30DD /* FormTextFieldRowItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormTextFieldRowItem.swift; sourceTree = "<group>"; };
+		9374021429E3C4C800BE30DD /* ChallengeCreateChallengeSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeCreateChallengeSheet.swift; sourceTree = "<group>"; };
+		9374021629E3CE2100BE30DD /* EmojiPickerSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiPickerSheetView.swift; sourceTree = "<group>"; };
+		9396974E29DD7BAF00ED8391 /* SessionDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionDetailView.swift; sourceTree = "<group>"; };
+		9396975029DD7F4200ED8391 /* SessionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionModel.swift; sourceTree = "<group>"; };
+		93A945F729E3F2A000B1B725 /* BaseRowCardItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseRowCardItem.swift; sourceTree = "<group>"; };
+		93A945F929E3F89D00B1B725 /* RoutineStatusRowCardItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutineStatusRowCardItem.swift; sourceTree = "<group>"; };
+		93A945FB29E4E85C00B1B725 /* RoutineProgressChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutineProgressChartView.swift; sourceTree = "<group>"; };
+		93A945FF29E4FD5900B1B725 /* DailyRoutineModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyRoutineModel.swift; sourceTree = "<group>"; };
 		93CA9E7F29DBCEDD00A7441D /* Readly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Readly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93CA9E8229DBCEDD00A7441D /* ReadlyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadlyApp.swift; sourceTree = "<group>"; };
 		93CA9E8429DBCEDD00A7441D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		93CA9E8629DBCEDE00A7441D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		93CA9E8929DBCEDE00A7441D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		93CA9E9229DBD0A800A7441D /* ChallengeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeView.swift; sourceTree = "<group>"; };
+		93CA9E9229DBD0A800A7441D /* ChallengeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeListView.swift; sourceTree = "<group>"; };
 		93CA9E9929DBD58900A7441D /* SummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryView.swift; sourceTree = "<group>"; };
+		93CA9E9E29DBDAE000A7441D /* ChallengeRowCardItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeRowCardItem.swift; sourceTree = "<group>"; };
+		93CA9EA429DBDBD900A7441D /* Space.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Space.swift; sourceTree = "<group>"; };
+		93CA9EA629DBDC0400A7441D /* RoundedShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShape.swift; sourceTree = "<group>"; };
+		93CA9EA929DBE3DF00A7441D /* ChallengeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeDetailView.swift; sourceTree = "<group>"; };
+		93CA9EAC29DBE58700A7441D /* LinearProgressIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearProgressIndicator.swift; sourceTree = "<group>"; };
+		93CA9EB029DC62DA00A7441D /* ChallengeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeModel.swift; sourceTree = "<group>"; };
+		93D0208029DE6F8F002F750E /* RoutineProgressRowCardItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutineProgressRowCardItem.swift; sourceTree = "<group>"; };
+		93E54DCB29DD057E00F725AC /* ObservableScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableScrollView.swift; sourceTree = "<group>"; };
+		93E54DCD29DD191400F725AC /* ChallengeAddProgressSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeAddProgressSheet.swift; sourceTree = "<group>"; };
+		93E54DD129DD451C00F725AC /* SessionRowListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionRowListItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,12 +69,64 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93D0208729DE74A8002F750E /* EmojiPicker in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9396974D29DD7B7F00ED8391 /* SessionDetail */ = {
+			isa = PBXGroup;
+			children = (
+				93A9460229E5A81600B1B725 /* View */,
+			);
+			path = SessionDetail;
+			sourceTree = "<group>";
+		};
+		93A945FD29E4FD3900B1B725 /* Routine */ = {
+			isa = PBXGroup;
+			children = (
+				93A945FE29E4FD4300B1B725 /* Domain */,
+			);
+			path = Routine;
+			sourceTree = "<group>";
+		};
+		93A945FE29E4FD4300B1B725 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				93A945FF29E4FD5900B1B725 /* DailyRoutineModel.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		93A9460129E5A80800B1B725 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				93CA9EA929DBE3DF00A7441D /* ChallengeDetailView.swift */,
+				93E54DD129DD451C00F725AC /* SessionRowListItem.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		93A9460229E5A81600B1B725 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9396974E29DD7BAF00ED8391 /* SessionDetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		93A9460329E5A81D00B1B725 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				93CA9E9929DBD58900A7441D /* SummaryView.swift */,
+				93A945FB29E4E85C00B1B725 /* RoutineProgressChartView.swift */,
+				93A945F929E3F89D00B1B725 /* RoutineStatusRowCardItem.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		93CA9E7629DBCEDD00A7441D = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +147,8 @@
 			isa = PBXGroup;
 			children = (
 				93CA9E9029DBD03B00A7441D /* App */,
+				93CA9EA329DBDBCB00A7441D /* Core */,
+				93CA9E9D29DBDAC200A7441D /* Common */,
 				93CA9E9829DBD56F00A7441D /* Modules */,
 				93CA9E8629DBCEDE00A7441D /* Assets.xcassets */,
 				93CA9E8829DBCEDE00A7441D /* Preview Content */,
@@ -80,18 +173,18 @@
 			path = App;
 			sourceTree = "<group>";
 		};
-		93CA9E9129DBD09300A7441D /* Challenge */ = {
+		93CA9E9129DBD09300A7441D /* ChallengeList */ = {
 			isa = PBXGroup;
 			children = (
-				93CA9E9229DBD0A800A7441D /* ChallengeView.swift */,
+				93CA9EAE29DC62B200A7441D /* View */,
 			);
-			path = Challenge;
+			path = ChallengeList;
 			sourceTree = "<group>";
 		};
 		93CA9E9729DBD56600A7441D /* Summary */ = {
 			isa = PBXGroup;
 			children = (
-				93CA9E9929DBD58900A7441D /* SummaryView.swift */,
+				93A9460329E5A81D00B1B725 /* View */,
 			);
 			path = Summary;
 			sourceTree = "<group>";
@@ -99,10 +192,88 @@
 		93CA9E9829DBD56F00A7441D /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				93CA9E9129DBD09300A7441D /* Challenge */,
+				93CA9EB329DC63B400A7441D /* Challenge */,
+				93A945FD29E4FD3900B1B725 /* Routine */,
+				93CA9E9129DBD09300A7441D /* ChallengeList */,
+				93CA9EAB29DBE4BF00A7441D /* ChallengeDetail */,
+				9396974D29DD7B7F00ED8391 /* SessionDetail */,
 				93CA9E9729DBD56600A7441D /* Summary */,
 			);
 			path = Modules;
+			sourceTree = "<group>";
+		};
+		93CA9E9D29DBDAC200A7441D /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				93CA9EA029DBDB7C00A7441D /* View */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		93CA9EA029DBDB7C00A7441D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				93A945F729E3F2A000B1B725 /* BaseRowCardItem.swift */,
+				9374021629E3CE2100BE30DD /* EmojiPickerSheetView.swift */,
+				9374021229E3C1C500BE30DD /* FormTextFieldRowItem.swift */,
+				93CA9EAC29DBE58700A7441D /* LinearProgressIndicator.swift */,
+				93E54DCB29DD057E00F725AC /* ObservableScrollView.swift */,
+				93D0208029DE6F8F002F750E /* RoutineProgressRowCardItem.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		93CA9EA329DBDBCB00A7441D /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				93CA9EA829DBDEB700A7441D /* Theme */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		93CA9EA829DBDEB700A7441D /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				93CA9EA629DBDC0400A7441D /* RoundedShape.swift */,
+				93CA9EA429DBDBD900A7441D /* Space.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		93CA9EAB29DBE4BF00A7441D /* ChallengeDetail */ = {
+			isa = PBXGroup;
+			children = (
+				93A9460129E5A80800B1B725 /* View */,
+			);
+			path = ChallengeDetail;
+			sourceTree = "<group>";
+		};
+		93CA9EAE29DC62B200A7441D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				93CA9E9229DBD0A800A7441D /* ChallengeListView.swift */,
+				9374021429E3C4C800BE30DD /* ChallengeCreateChallengeSheet.swift */,
+				93E54DCD29DD191400F725AC /* ChallengeAddProgressSheet.swift */,
+				93CA9E9E29DBDAE000A7441D /* ChallengeRowCardItem.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		93CA9EAF29DC62B800A7441D /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				93CA9EB029DC62DA00A7441D /* ChallengeModel.swift */,
+				9396975029DD7F4200ED8391 /* SessionModel.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		93CA9EB329DC63B400A7441D /* Challenge */ = {
+			isa = PBXGroup;
+			children = (
+				93CA9EAF29DC62B800A7441D /* Domain */,
+			);
+			path = Challenge;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,6 +293,9 @@
 			dependencies = (
 			);
 			name = Readly;
+			packageProductDependencies = (
+				93D0208629DE74A8002F750E /* EmojiPicker */,
+			);
 			productName = Readly;
 			productReference = 93CA9E7F29DBCEDD00A7441D /* Readly.app */;
 			productType = "com.apple.product-type.application";
@@ -151,6 +325,7 @@
 			);
 			mainGroup = 93CA9E7629DBCEDD00A7441D;
 			packageReferences = (
+				93D0208529DE74A8002F750E /* XCRemoteSwiftPackageReference "EmojiPicker" */,
 			);
 			productRefGroup = 93CA9E8029DBCEDD00A7441D /* Products */;
 			projectDirPath = "";
@@ -200,10 +375,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93E54DCC29DD057E00F725AC /* ObservableScrollView.swift in Sources */,
 				93CA9E8529DBCEDD00A7441D /* ContentView.swift in Sources */,
+				93E54DD229DD451C00F725AC /* SessionRowListItem.swift in Sources */,
+				93A945FC29E4E85C00B1B725 /* RoutineProgressChartView.swift in Sources */,
+				9374021329E3C1C500BE30DD /* FormTextFieldRowItem.swift in Sources */,
+				93CA9EB129DC62DA00A7441D /* ChallengeModel.swift in Sources */,
+				9396974F29DD7BAF00ED8391 /* SessionDetailView.swift in Sources */,
 				93CA9E9A29DBD58900A7441D /* SummaryView.swift in Sources */,
+				93CA9EA529DBDBD900A7441D /* Space.swift in Sources */,
+				9374021729E3CE2100BE30DD /* EmojiPickerSheetView.swift in Sources */,
 				93CA9E8329DBCEDD00A7441D /* ReadlyApp.swift in Sources */,
-				93CA9E9329DBD0A800A7441D /* ChallengeView.swift in Sources */,
+				93CA9E9329DBD0A800A7441D /* ChallengeListView.swift in Sources */,
+				93CA9EAA29DBE3DF00A7441D /* ChallengeDetailView.swift in Sources */,
+				93A945FA29E3F89D00B1B725 /* RoutineStatusRowCardItem.swift in Sources */,
+				93E54DCE29DD191400F725AC /* ChallengeAddProgressSheet.swift in Sources */,
+				93CA9EAD29DBE58700A7441D /* LinearProgressIndicator.swift in Sources */,
+				93D0208129DE6F8F002F750E /* RoutineProgressRowCardItem.swift in Sources */,
+				93CA9E9F29DBDAE000A7441D /* ChallengeRowCardItem.swift in Sources */,
+				93CA9EA729DBDC0400A7441D /* RoundedShape.swift in Sources */,
+				93A9460029E4FD5900B1B725 /* DailyRoutineModel.swift in Sources */,
+				9396975129DD7F4200ED8391 /* SessionModel.swift in Sources */,
+				93A945F829E3F2A000B1B725 /* BaseRowCardItem.swift in Sources */,
+				9374021529E3C4C800BE30DD /* ChallengeCreateChallengeSheet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,6 +598,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		93D0208529DE74A8002F750E /* XCRemoteSwiftPackageReference "EmojiPicker" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Kelvas09/EmojiPicker.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		93D0208629DE74A8002F750E /* EmojiPicker */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 93D0208529DE74A8002F750E /* XCRemoteSwiftPackageReference "EmojiPicker" */;
+			productName = EmojiPicker;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 93CA9E7729DBCEDD00A7441D /* Project object */;
 }
