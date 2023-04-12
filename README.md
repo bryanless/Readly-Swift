@@ -24,4 +24,4 @@ Reading habit tracker
 2. Open the project by using Xcode
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/bryanless/Readly-Swift/blob/main/LICENSE) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/bryanless/Readly-Swift/blob/main/LICENSE.md) file for details
